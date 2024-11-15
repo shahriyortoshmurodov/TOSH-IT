@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    scroll-behavior: smooth;
+    background-color: #c4c4c4;
+}
+
+.content {
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row-1 {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec {
+    padding-top: 150px;
+    background-image: url("./images/bgimg1.JPG");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.fa-telegram,
+.fa-instagram {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#nomer {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolold;
+}
+
+#nomer:hover {
+    color:rgb(255, 121, 0);
+    font-weight: boldb;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+ul li a {
+    cursor: pointer;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: inter;
+    font-weight: bold;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+    padding: 0 20px 0 20px;
+    box-shadow: black 0 0 20px 5px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.profile-cards {
+    background-color: #0000008a;
+    border-radius: 28px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    font-family: inter;
+    transition: transform 0.3s, box-shadow 0.3s;
+cursor: pointer;
+}
+
+.profile-cards:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile-cards h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.profile-cards p {
+    font-family: inter;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+.h2main {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: inter;
+    color: white
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contact-btn,
+.explore-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.contact-btn {
+    text-decoration: none;
+    background: linear-gradient(135deg, #22a226, #197e2a);
+    color: white;
+    font-family: inter;
+    text-decoration: none;
+
+}
+
+.contac-btn {
+    text-decoration: none;
+    color: white;
+    font-family: inter;
+    text-decoration: none;
+
+}
+
+.explore-btn {
+    background: linear-gradient(135deg, #8b1fff, #146aff);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    font-family: inter;
+    color: white;
+    width: 120px;
+}
+
+.contact-btn:hover {
+    background: linear-gradient(135deg, #197e2a, #22a226);
+
+    font-family: inter;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.explore-btn:hover {
+    background: linear-gradient(135deg, #146aff, #8b1fff);
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.row-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.hero-h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: inter;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.row_5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.card {
+    padding: 10px 20px;
+    background:  #ffffff;
+    border-radius: 50px;
+
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 30px;
+   
+}
+.card .kichik {
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.card .katta {
+    width: 950px;
+   height: 300px;
+    cursor: pointer;
+    height: 400px;
+    transition: transform 0.2s;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-radius: 30px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.mainh1 {
+    margin-top: 170px;
+    font-size: 40px;
+    font-family: inter;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+.slider-container {
+    width:100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slider {
+    display: flex;
+    gap: 20px;
+    animation: slide 20s linear infinite;
+  }
+
+  .slider-row {
+    display: flex;
+    gap: 20px;
+  }
+
+  .tool {
+    padding: 2px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tool img {
+    cursor: pointer;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+
+   
+  }
+
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
